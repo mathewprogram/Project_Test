@@ -13,7 +13,7 @@ public class Principal {
         
         for(String elementos: nombres_al){
             System.out.println(elementos);
-        }
+        } 
     }
     
 }
