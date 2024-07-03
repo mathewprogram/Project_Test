@@ -1,10 +1,15 @@
 package misrc;
 
+import java.util.List;
+
 public class Principal {
 
     public static void main(String[] args) {
-        //este es un comentario para diferenciar la version 1 de version 1.1
-        System.out.println("Hola Git");
+        List<String> nombres_al = null;
+        
+        for(String elementos: nombres_al){
+            System.out.println(elementos);
+        }
     }
     
 }
